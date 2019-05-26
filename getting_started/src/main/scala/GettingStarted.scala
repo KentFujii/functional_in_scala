@@ -30,7 +30,6 @@ object MyModule {
   }
 
   // def findFirst(ss: Array[Int], key: Int): Int = {
-  //   @annotation.tailrec
   //   def loop(n: Int): Int = {
   //     if (n >= ss.length) -1
   //     else if (ss(n) == key) n
@@ -40,7 +39,6 @@ object MyModule {
   // }
 
   def findFirst[A](as: Array[A], p: A => Boolean): Int = {
-    @annotation.tailrec
     def loop(n: Int): Int = {
       if (n >= as.length) -1
       else if (p(as(n))) n
