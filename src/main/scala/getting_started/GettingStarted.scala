@@ -1,6 +1,6 @@
 package getting_started
 
-object MyModule {
+class GettingStarted {
   def abs(n: Int): Int = {
     if (n < 0) -n
     else n
