@@ -1,4 +1,4 @@
-package datastructures
+package data_structures
 
 sealed trait List[+A]
 case object Nil extends List[Nothing]
