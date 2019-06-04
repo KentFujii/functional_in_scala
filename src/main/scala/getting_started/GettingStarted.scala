@@ -46,13 +46,4 @@ class GettingStarted {
     }
     loop(0)
   }
-
-  def main(args: Array[String]): Unit = {
-    // println(formatAbs(-42))
-    // println(formatFactorial(7))
-    println(formatResult("absolute value", 42, abs))
-    println(formatResult("factorial value", 7, factorial))
-    // println(findFirst(Array(7, 9, 13), 13))
-    println(findFirst(Array(7, 9, 13), (x: Int) => x == 9))
-  }
 }
