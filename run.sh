@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker pull hseeberger/scala-sbt
-docker run -it -v=$(pwd):/root hseeberger/scala-sbt sbt
+docker pull mozilla/sbt
+docker run -it -v=$(pwd):/root mozilla/sbt sbt
